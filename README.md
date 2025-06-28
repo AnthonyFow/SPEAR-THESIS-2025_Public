@@ -4,6 +4,9 @@ AUTHOR: ANTHONY JEANPIER FOW ESTEVES
 CONTACT: ajfe081@gmail.com
 --------------------------------------------
 
+![Pesticides Impact on Swiss Streams_AI GEN](https://github.com/user-attachments/assets/50a2405a-7101-4206-8302-fa53b2106cab)
+** Image generated in ChatGPT in May 2025 **
+
 ## Project Overview
 
 This repository provides the main analysis script and synthetic example datasets for the thesis:

@@ -63,8 +63,7 @@ detach("package:raster", unload = TRUE) # it has conflict with select.
 
 
 # Paths to call ----
-## user <- "C:\\your user...\\"
-user <- "C:\\Users\\ajfe0\\Desktop\\SPEAR_clean25"
+# user <- "C:\\your user...\\"
 file_inputs <- "\\intpus\\" # Here you already have the three data sets
 
 # Paths to save ----
@@ -1554,8 +1553,7 @@ a + b +
          plot.title = element_text(hjust = 0, face = "bold")) -> c
 c
 rm(a,b,c)
-#ggsave("LM_3.5d_improved.png", c, width = 25, height = 17, units = "cm", dpi = 350)
-##
+#dev.off()
 
 ## 3.5. Checking assumptions (only linearity and cook's distance) ----
 
@@ -2388,7 +2386,6 @@ p <- ggplot(gam_plot_data_filt, aes(x = x, y = fit)) +
 #    width = 19, height = 22, units = "cm", res = 350)
 p
 #dev.off()
-#ggsave("GAM_PartialPlot_improved.png", p, width = 25, height = 20, units = "cm", dpi = 350)
 rm(p)
 ##
 
@@ -2813,8 +2810,6 @@ ggplot(
 e
 #dev.off()
 rm(a,b,c,d,e)
-#ggsave("LMM_14d_improved.png", e, width = 30, height = 26, units = "cm", dpi = 350)
-##
 
 ## 6.4. Checking assumptions: (only homoscedasticity and normality) ----
 
@@ -3642,7 +3637,6 @@ p <- ggplot(lmm_plot_data, aes(x = x, y = fit)) +
 #    width = 25, height = 20, units = "cm", res = 350)
 p
 #dev.off()
-#ggsave("LMM_PartialPlot_improved.png", p, width = 25, height = 20, units = "cm", dpi = 350)
 rm(p)
 
 
@@ -4001,7 +3995,6 @@ ggplot(long_results_CV, aes(x = Scenario, y = Value, color = Model, shape = Mode
 #    width = 25, height = 20, units = "cm", res = 350)
 p
 #dev.off()
-#ggsave("CV_RF_3.5d&14d_improved.png", p, width = 25, height = 20, units = "cm", dpi = 350)
 rm(p)
 
 

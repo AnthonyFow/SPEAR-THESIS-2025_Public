@@ -3,8 +3,7 @@ REPOSITORY "SPEAR PUBLIC 2025"
 AUTHOR: ANTHONY JEANPIER FOW ESTEVES
 CONTACT: ajfe081@gmail.com
 --------------------------------------------
-
-![Pesticides Impact on Swiss Streams_AI GEN](https://github.com/user-attachments/assets/50a2405a-7101-4206-8302-fa53b2106cab)
+![Pesticides Impact on Swiss Streams_AI GEN](https://github.com/user-attachments/assets/4d833ec5-3dc4-43bc-a2b3-feeb8b66738d)
 ** Image generated in ChatGPT in May 2025 **
 
 ## Project Overview
